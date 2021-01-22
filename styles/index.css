@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "oranienbaum";
+  src: url("../public/Oranienbaum.ttf");
+  font-style: normal;
+  font-weight: 100;
+}
+
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+html,
+body {
+  font-family: oranienbaum;
+}
+
+/* Write your own custom component styles here */
+.btn-blue {
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */

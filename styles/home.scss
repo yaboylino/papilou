@@ -1,0 +1,32 @@
+.navbar {
+  height: 10vh;
+  background: transparent;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: black !important;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  background: black !important;
+}
+
+.slider__1 {
+  background: url("../public/jasmine.jpg");
+  background-repeat: no-repeat;
+  background-size: 70vh;
+  background-position: center;
+  height: 80vh;
+  width: 80vh;
+  margin: 0 auto;
+}
+.slider__2 {
+  background: url("https://static.zara.net/photos///contents/mkt/spots/ss21-north-new-in-woman/subhome-xmedia-03//w/3800/img-large-portrait-8a282a35681dc8541a4cfd13dabb88ec_0.jpg?ts=1611185941107");
+  background-repeat: no-repeat;
+  background-size: 45vh;
+  background-position: center;
+  height: 80vh;
+  width: 80vh;
+  margin: 0 auto;
+}
